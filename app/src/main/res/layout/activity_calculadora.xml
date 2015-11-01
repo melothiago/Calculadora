@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".CalculadoraActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/visor"
+        android:background="@color/corVisor"
+        android:textColor="@color/letraVisor"
+        android:gravity="right|center_vertical"
+        android:textSize="25sp"
+        android:height="50dp"/>
+
+    <TableRow>
+        <Button android:id="@+id/bt9"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt8"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt7"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btSom"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/bt6"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt5"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt4"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btSub"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/bt3"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt2"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt1"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btMul"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:id="@+id/bt0"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btCls"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btEql"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btDiv"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+</TableLayout>
